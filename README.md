@@ -110,7 +110,7 @@ is_disengaged = (ViewingHours < 10) & (Downloads < 10)  # Low activity
 
 ### Feature Importance Analysis
 
-![Feature Importance]([results/feature_importance_all6.png](https://github.com/Fjord-H/customer-churn-prediction/blob/main/churn-prediction/results/feature_importance_all6.png))
+![Feature Importance](https://github.com/Fjord-H/customer-churn-prediction/blob/main/churn-prediction/results/feature_importance_all6.png)
 
 | Rank | Feature | Importance | Status |
 |------|---------|-----------|--------|
@@ -369,5 +369,6 @@ The training and test datasets are not included in this repository due to file s
 ---
 
 *Last updated: November 2025*
+
 
 
