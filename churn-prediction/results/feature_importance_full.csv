@@ -1,0 +1,35 @@
+feature,importance
+engagement_per_dollar,0.16413017
+loyalty_satisfactions,0.13249333
+AccountAge,0.11424748
+AverageViewingDuration,0.08585206
+SubscriptionType_Premium,0.038386974
+PaymentMethod_Credit card,0.034860298
+ViewingHoursPerWeek,0.023114355
+SubscriptionType_Standard,0.022927316
+TotalCharges,0.022311043
+GenrePreference_Comedy,0.021725854
+ContentDownloadsPerMonth,0.02158359
+charge_per_hour,0.021484014
+SupportTicketsPerMonth,0.018211015
+PaymentMethod_Mailed check,0.017477108
+GenrePreference_Sci-Fi,0.017274026
+PaymentMethod_Electronic check,0.016912421
+UserRating,0.01642122
+SubtitlesEnabled_Yes,0.016372995
+WatchlistSize,0.015596872
+GenrePreference_Fantasy,0.01547296
+MonthlyCharges,0.014888783
+content_satisfaction,0.014384508
+ContentType_Movies,0.014034535
+Gender_Male,0.013829173
+DeviceRegistered_Tablet,0.013117712
+ContentType_TV Shows,0.012544606
+MultiDeviceAccess_Yes,0.012456416
+ParentalControl_Yes,0.012386525
+DeviceRegistered_TV,0.012220217
+GenrePreference_Drama,0.012056814
+PaperlessBilling_Yes,0.011860262
+DeviceRegistered_Mobile,0.010285381
+is_disengaged,0.009079941
+is_loyal,0.0

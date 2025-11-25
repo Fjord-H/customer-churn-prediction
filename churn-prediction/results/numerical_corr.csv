@@ -1,0 +1,11 @@
+,Correlation_with_Churn
+Churn,1
+MonthlyCharges,0.100472807
+SupportTicketsPerMonth,0.084064331
+UserRating,0.022123581
+WatchlistSize,0.021738675
+TotalCharges,-0.120528711
+ViewingHoursPerWeek,-0.128644806
+ContentDownloadsPerMonth,-0.129751874
+AverageViewingDuration,-0.146896569
+AccountAge,-0.197735632
