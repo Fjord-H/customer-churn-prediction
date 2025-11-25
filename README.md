@@ -44,8 +44,6 @@ churn-prediction/
 │   ├── train.csv
 │   ├── test.csv
 │   └── data_descriptions.csv
-├── notebooks/
-│   └── coursera_submission.ipynb     
 ├── src/                               
 │   ├── churn_train_nn_4_layers.py
 │   ├── churn_train_xgb.py
@@ -54,8 +52,8 @@ churn-prediction/
 │   ├── churn_test.py
 │   └── features_importance_plots.py
 ├── models/                            
-│   ├── churn_nn_4_layers.keras
-│   └── churn_xgb.pkl
+│   ├── churn_nn_4_layers.keras # trained from churn_train_nn_4_layers.py
+│   └── churn_xgb.pkl # trained from churn_train_xgb.py
 └── results/                          
     ├── feature_importance_all6.png
     ├── numerical_corr.csv
@@ -74,7 +72,7 @@ churn-prediction/
 - 18/82 class imbalance (churn/retain)
 - No missing values
 - Mix of numerical (10) and categorical (9) features
-- AccountAge showed strongest correlation with churn (-0.198)
+- AccountAge showed the strongest correlation with churn (-0.198)
 
 **Key insights:**
 - Engagement metrics (viewing hours, downloads) inversely correlated with churn
@@ -337,11 +335,30 @@ python src/churn_train_xgb.py
 python src/churn_train_ensemble.py
 ```
 
-### Coursera Submission
-Upload `notebooks/coursera_submission.ipynb` to Coursera Jupyter Lab and run all cells.
-
 **Note:** Model training times vary significantly between local and Coursera challenge environments 
 (see Challenge 2 for details).
+
+## Data Access
+
+The training and test datasets are not included in this repository due to file size constraints.
+
+**To obtain the data:**
+
+1. **Enroll in the course:**  
+   [Coursera Data Science Challenge](https://www.coursera.org/projects/data-science-challenge)
+
+2. **Download from competition page:**  
+   Navigate to the Data Science Challenge and download:
+   - `train.csv` (243,787 rows, ~17MB)
+   - `test.csv` (104,480 rows, ~42MB)
+
+3. **Place in data folder:**
+```
+   churn-prediction/
+   └── data/
+       ├── train.csv  ← Place here
+       └── test.csv   ← Place here
+```
 
 ## Author
 
@@ -350,3 +367,4 @@ Upload `notebooks/coursera_submission.ipynb` to Coursera Jupyter Lab and run all
 ---
 
 *Last updated: November 2025*
+
