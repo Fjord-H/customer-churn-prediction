@@ -56,21 +56,13 @@ churn-prediction/
 ├── models/                            
 │   ├── churn_nn_4_layers.keras
 │   └── churn_xgb.pkl
-├── results/                          
-│   ├── feature_importance_all6.png
-│   ├── numerical_corr.csv
-│   ├── categorical_corr.csv
-│   ├── prediction_submission.csv
-│   └── feature_importance_full
-└── archive/                           
-    ├── first_test
-    ├── churn_nn_basic.py
-    ├── churn_nn_higher_dropout.py
-    ├── churn_nn_simple.py
-    ├── churn_test.py
-    ├── churn_nn_basic_7525.keras
-    ├── churn_nn_higher_dropout.keras
-    └── churn_nn_simple_7523.keras
+└── results/                          
+    ├── feature_importance_all6.png
+    ├── numerical_corr.csv
+    ├── categorical_corr.csv
+    ├── prediction_submission.csv
+    └── feature_importance_full
+
     
 ```
 
@@ -356,4 +348,5 @@ Upload `notebooks/coursera_submission.ipynb` to Coursera Jupyter Lab and run all
 **Fjord-H** - [LinkedIn](#) | [GitHub](#)
 
 ---
+
 *Last updated: November 2025*
