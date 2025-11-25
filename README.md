@@ -44,6 +44,7 @@ churn-prediction/
 │   ├── train.csv
 │   ├── test.csv
 │   └── data_descriptions.csv
+│ 
 ├── src/                               
 │   ├── churn_train_nn_4_layers.py
 │   ├── churn_train_xgb.py
@@ -51,16 +52,17 @@ churn-prediction/
 │   ├── churn_analyze_features.py
 │   ├── churn_test.py
 │   └── features_importance_plots.py
+│ 
 ├── models/                            
 │   ├── churn_nn_4_layers.keras # trained from churn_train_nn_4_layers.py
 │   └── churn_xgb.pkl # trained from churn_train_xgb.py
+│ 
 └── results/                          
     ├── feature_importance_all6.png
     ├── numerical_corr.csv
     ├── categorical_corr.csv
     ├── prediction_submission.csv
     └── feature_importance_full
-
     
 ```
 
@@ -108,7 +110,7 @@ is_disengaged = (ViewingHours < 10) & (Downloads < 10)  # Low activity
 
 ### Feature Importance Analysis
 
-![Feature Importance](results/feature_importance_all6.png)
+![Feature Importance]([results/feature_importance_all6.png](https://github.com/Fjord-H/customer-churn-prediction/blob/main/churn-prediction/results/feature_importance_all6.png))
 
 | Rank | Feature | Importance | Status |
 |------|---------|-----------|--------|
@@ -367,4 +369,5 @@ The training and test datasets are not included in this repository due to file s
 ---
 
 *Last updated: November 2025*
+
 
